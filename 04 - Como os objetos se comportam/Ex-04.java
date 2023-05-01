@@ -1,4 +1,5 @@
-//take code snippets from the pool and place them into the blank lines in the code
+//take code snippets from the pool and place them into 
+//the blank lines in the code
 
 public class Puzzle4 {
     public static void main(String[] args){
