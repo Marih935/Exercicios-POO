@@ -1,9 +1,11 @@
+import java.util.ArrayList;
+
 public class SimpleStartup {
     private int[] locationCells;
     private int numOfHits = 0;
 
-    public void setLocationCells(int[] locs) {
-        locationCells = locs;
+    public void setLocationCells(ArrayList<String> newLocation) {
+        locationCells = newLocation;
     }
 
     public String checkYourself(int guess) {
@@ -23,5 +25,8 @@ public class SimpleStartup {
         
         System.out.println(result);
         return result;
+    }
+
+    public void setName(String string) {
     }
 }
